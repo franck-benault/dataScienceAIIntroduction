@@ -1,6 +1,13 @@
 # Data Science, Machine Learning, AI Introduction
 Simple introduction about Data Science, Machine Learning, AI
 
+## Pandas
+
+```
+# see values for one features
+myDataFrame['myFeature'].value_counts()
+```
+
 ## Split train test data
 
 ```
