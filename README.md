@@ -67,7 +67,34 @@ values = pd.DataFrame({
 values.hist(bins=5,column=['Foo1','Foo2','Foo4'], grid=False)
 plt.show()
 ```
+#### using seaborn
+sns.pairplot(mydataFrame)
 
+with random variables you are sure that there is no correlations at all
+```
+import seaborn as sns
+import numpy as np
+
+# Example dataset
+df = pd.DataFrame({
+    'Math_Score': np.random.randint(50, 100, 50),
+    'Science_Score': np.random.randint(50, 100, 50),
+    'English_Score': np.random.randint(50, 100, 50)
+})
+
+# Creating a pair plot
+sns.pairplot(df)
+plt.show()
+```
+
+A more complete and realistic example
+```
+import seaborn
+import matplotlib.pyplot as plt
+df = seaborn.load_dataset('tips')
+seaborn.pairplot(df, hue ='day')
+plt.show()
+```
 
 ## Generative IA
 ### Definition
