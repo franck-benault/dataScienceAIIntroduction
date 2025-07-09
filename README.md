@@ -15,6 +15,15 @@ Simple introduction about Data Science, Machine Learning, AI
 * Scikit-learn
   * https://scikit-learn.org
 ### Pandas
+
+```
+# Basic code to manage a data frame
+myDataFrame.head()
+myDataFrame.info()
+myDataFrame.describe()
+myDataFrame.hist(bins=4)
+```
+
 ```
 # see values for one features
 myDataFrame['myFeature'].value_counts()
