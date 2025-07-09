@@ -14,8 +14,12 @@ Simple introduction about Data Science, Machine Learning, AI
 * Pandas
 * Scikit-learn
   * https://scikit-learn.org
+* matplotlib
+  * basic plots
+* seaborn
+  * advanced plots
 ### Pandas
-
+### Basic code
 ```
 # Basic code to manage a data frame
 myDataFrame.head()
@@ -29,12 +33,20 @@ myDataFrame.hist(bins=4)
 myDataFrame['myFeature'].value_counts()
 ```
 
-## Split train test data
+### Split train test data
 
 ```
 import sklearn.model_selection import train_test_split
 train_set, test_set = train_test_split(myDataFrame, test_size=0.2, random_state=42)
 ```
+
+```
+# important to work on a copy of a dataframe if any issue you can go back to the original data
+dfCopy = df.copy()
+```
+
+### Data visualization
+
 
 ## Generative IA
 ### Definition
