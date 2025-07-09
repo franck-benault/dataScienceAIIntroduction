@@ -46,6 +46,27 @@ dfCopy = df.copy()
 ```
 
 ### Data visualization
+#### using Pandas dataframe
+The dataframe in Pandas has the basic functionalities to create the plots.
+Actually it uses matplotlib.
+##### Histogram
+```
+# Importing pandas library
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Creating a Data frame
+values = pd.DataFrame({
+    'Foo1': [3.7, 8.7, 3.4, 2.4, 1.9,1.3],
+    'Foo2': [4.24, 2.67, 7.6, 7.1, 4.9,5.4],
+    'Foo3': [4.34, 3.67, 7.6, 7.1, 4.9,5.4],
+    'Foo4': [4.34, 3.47, 3.6, 7.1, 4.9,5.4]
+})
+
+# Creating Histograms of all columns 
+values.hist(bins=5,column=['Foo1','Foo2','Foo4'])
+plt.show()
+```
 
 
 ## Generative IA
