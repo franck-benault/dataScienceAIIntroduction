@@ -64,7 +64,7 @@ values = pd.DataFrame({
 })
 
 # Creating Histograms of all columns 
-values.hist(bins=5,column=['Foo1','Foo2','Foo4'])
+values.hist(bins=5,column=['Foo1','Foo2','Foo4'], grid=False)
 plt.show()
 ```
 
