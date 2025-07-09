@@ -1,8 +1,20 @@
 # Data Science, Machine Learning, AI Introduction
 Simple introduction about Data Science, Machine Learning, AI
 
-## Pandas
+## Introduction
 
+* AI
+  * Machine Learning
+    * Deep Learning
+      * Generative IA (LLM) 
+
+## Python
+### Python Libraries
+* Numpy
+* Pandas
+* Scikit-learn
+  * https://scikit-learn.org
+### Pandas
 ```
 # see values for one features
 myDataFrame['myFeature'].value_counts()
@@ -15,12 +27,22 @@ import sklearn.model_selection import train_test_split
 train_set, test_set = train_test_split(myDataFrame, test_size=0.2, random_state=42)
 ```
 
-## Resources
-### Python Libraries
-* Numpy
-* Pandas
-* Scikit-learn
-  * https://scikit-learn.org
+## Generative IA
+### Definition
+A type of Artificial Intelligence that creates contents (not only text) based on what it has learned from existing content
+* the input is called the prompt
+* the output is the completion
 
+### Usage of Generative IA
+about text
+* Classify text
+* answering question
+* summarizing content
+* generating text
+  * Translate to another language
+  * reformutate for a specific audience
+  * generate code 
+
+## Resources
 ### Books
 * Introduction to Machine Learning with Python (Andreas C Müller, Sarah Guido)
