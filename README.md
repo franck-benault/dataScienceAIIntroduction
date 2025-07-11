@@ -18,20 +18,11 @@ Simple introduction about Data Science, Machine Learning, AI
   * basic plots
 * seaborn
   * advanced plots
+### Numpy
+see basic example in 002-Numpy.ipynb
 ### Pandas
-### Basic code
-```
-# Basic code to manage a data frame
-myDataFrame.head()
-myDataFrame.info()
-myDataFrame.describe()
-myDataFrame.hist(bins=4)
-```
+see basic example in 003-Pandas.ipynb
 
-```
-# see values for one features
-myDataFrame['myFeature'].value_counts()
-```
 
 ### Split train test data
 
