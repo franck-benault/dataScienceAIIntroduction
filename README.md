@@ -101,7 +101,12 @@ about text
 * generating text
   * Translate to another language
   * reformutate for a specific audience
-  * generate code 
+  * generate code
+#### LLM
+##### Assitant
+An assistant enable you to perform more complex task than a prompt feature by combining prompts with plugins and documents.
+
+The goal of an assistant is to help people with repeated tasks.
 
 ## Resources
 ### Books
