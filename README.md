@@ -102,6 +102,13 @@ about text
   * Translate to another language
   * reformutate for a specific audience
   * generate code
+#### NLP Natural Language Processing
+Main domains of NLP or Natural Language Processing are
+* NLU
+  * Natural Language Understanding
+* NLG
+  * Natural Language Generation
+    
 #### LLM
 ##### Assitant
 An assistant enable you to perform more complex task than a prompt feature by combining prompts with plugins and documents.
