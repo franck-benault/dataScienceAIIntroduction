@@ -12,12 +12,13 @@ Simple introduction about Data Science, Machine Learning, AI
 ### Python Libraries
 * Numpy
 * Pandas
-* Scikit-learn
-  * https://scikit-learn.org
 * matplotlib
   * basic plots
 * seaborn
   * advanced plots
+* Scikit-learn
+  * https://scikit-learn.org
+
 ### Numpy
 see basic example in 002-Numpy.ipynb
 ### Pandas
@@ -108,6 +109,15 @@ Main domains of NLP or Natural Language Processing are
   * Natural Language Understanding
 * NLG
   * Natural Language Generation
+
+##### Timeline of NLP
+NLP is quite an old subject in IT. Several approaches have been used following the time.
+* 1950 1980 Syntastic and grammar based
+* 1980 2000 Expert systems and statistical models
+* 2000 2010 Neural models and dense representation
+* 2010 2020 Deep learning
+* 2020 - now LLM 
+
     
 #### LLM
 ##### Assitant
@@ -117,4 +127,5 @@ The goal of an assistant is to help people with repeated tasks.
 
 ## Resources
 ### Books
-* Introduction to Machine Learning with Python (Andreas C Müller, Sarah Guido)
+* [B1]Introduction to Machine Learning with Python (Andreas C Müller, Sarah Guido)
+* [B2] Large Language Models:A deep dive (Uday Kamath, Kevin Keenan, Garrett Somers, Sarah Sorenson) Springer
