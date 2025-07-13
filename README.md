@@ -94,7 +94,7 @@ A type of Artificial Intelligence that creates contents (not only text) based on
 * the output is the completion
 
 ### Usage of Generative IA
-about text
+About text
 * Classify text
 * answering question
 * summarizing content
