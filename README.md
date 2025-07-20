@@ -127,7 +127,15 @@ NLP is quite an old subject in IT. Several approaches have been used following t
 * 1980 2000 Expert systems and statistical models
 * 2000 2010 Neural models and dense representation
 * 2010 2020 Deep learning
-* 2020 - now LLM 
+* 2020 - now LLM
+
+##### Tokenization
+The tokenization converts sentences into a machine learning readable format.
+It can be done
+* at word level
+* at subword level
+
+this last way is important to represent "out of vocabulary" terms.
     
 #### LLM
 ##### Assitant
