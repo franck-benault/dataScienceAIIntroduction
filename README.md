@@ -118,6 +118,17 @@ NLP is quite an old subject in IT. Several approaches have been used following t
 * 2010 2020 Deep learning
 * 2020 - now LLM 
 
+### Example of artificial neural networks
+
+#### RNN (Recurent neural networks)
+##### Definition from wikipedia
+In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important.
+RNNs utilize recurrent connections, where the output of a neuron at one time step is fed back as input to the network at the next time step. 
+This enables RNNs to capture temporal dependencies and patterns within sequences.
+
+The fundamental building block of RNN is the recurrent unit, which maintains a hidden state—a form of memory that is updated at each time step based on the current input and the previous hidden state.
+
+https://en.wikipedia.org/wiki/Recurrent_neural_network
     
 #### LLM
 ##### Assitant
